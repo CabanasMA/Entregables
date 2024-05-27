@@ -1,0 +1,53 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(243, 243, 248);
+    background-color: rgb(37, 43, 51);
+    border-bottom: 16px solid rgb(193, 238, 255);
+ 
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 0%;
+    width: 200px;
+    height: 200px;
+    padding: left 1rem;
+    border-radius: 40%;
+
+}
+
+.opciones{
+    display: flex;
+   justify-content: flex-end;
+   margin-right: 3rem;
+}
+
+.opcion {
+    display: flex;
+    margin: 2rem;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgb(193, 238, 255);
+   
+    
+
+}
+
+#ingreso{
+    display: flex;
+    margin: 2rem;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(193, 238, 255);
+    border-radius: 20%;
+    padding: 0.25rem;
+}
